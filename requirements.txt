@@ -1,6 +1,10 @@
+pip==26.0
+pyarrow==14.0.0
 aiogram==3.10.0
-pandas==2.1.4
+pandas==2.2.0
 openpyxl==3.1.2
 python-dotenv==1.0.0
 pillow==10.1.0  # Для работы с изображениями
-flask==2.3.3    # Для keep-alive сервера
+
+aiohttp>=3.9.0
+sqlalchemy>=2.0.0
